@@ -3,9 +3,7 @@
     <v-app>
       <app-header />
       <v-content>
-        <v-container>
-          <router-link></router-link>
-        </v-container>
+        <router-view></router-view>
       </v-content>
     </v-app>
   </div>
@@ -14,7 +12,7 @@
 import Header from './components/Header.vue'
 
 export default {
-name: 'app',
+  name: 'app',
   components: {
     'app-header': Header
   }
