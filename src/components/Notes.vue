@@ -12,6 +12,7 @@
           {{ note.title }}
           {{ note.text }}
           {{ note.author }}
+          
         </div>
       </panel>
     </v-flex>
